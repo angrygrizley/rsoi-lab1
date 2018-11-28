@@ -1,0 +1,6 @@
+language: java
+script: mvn clean compile
+deploy:
+  provider: heroku
+  api_key: 342d8295-03b4-47d7-b664-3b77f9b515b9
+  app: poluektova-rsoi-lab1
